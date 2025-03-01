@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report1" language="groovy" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" isIgnorePagination="true" uuid="ece9c709-5d23-4694-b1c0-e3cbe34785c1">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="net.sf.jasperreports.export.xls.detect.cell.type" value="true"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 9">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 9_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 9_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 9_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 10">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 10_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 10_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 10_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="ItemDataset" uuid="aa8da6ad-7b92-4f8d-8f3d-a86199a17fd5">
+		<field name="transactionType" class="java.lang.String"/>
+		<field name="entryModeType" class="java.lang.String"/>
+		<field name="transactionId" class="java.lang.String"/>
+		<field name="transLink" class="java.lang.String"/>
+		<field name="transactionLocalTime" class="java.lang.String"/>
+		<field name="reconciliationDate" class="java.lang.String"/>
+		<field name="settlementDate" class="java.lang.String"/>
+		<field name="dateTimeProcessed" class="java.lang.String"/>
+		<field name="cardProduct" class="java.lang.String"/>
+		<field name="program" class="java.lang.String"/>
+		<field name="cardId" class="java.lang.String"/>
+		<field name="accountId" class="java.lang.String"/>
+		<field name="transactionAmount" class="java.lang.Double"/>
+		<field name="transactionAmountCurrency" class="java.lang.String"/>
+		<field name="billingAmount" class="java.lang.Double"/>
+		<field name="billingAmountCurrency" class="java.lang.String"/>
+		<field name="billingAmountRate" class="java.lang.Double"/>
+		<field name="cardholderAmount" class="java.lang.Double"/>
+		<field name="cardholderAmountCurrency" class="java.lang.String"/>
+		<field name="cardholderAmountRate" class="java.lang.Double"/>
+		<field name="baseConversionRate" class="java.lang.Double"/>
+		<field name="isConversionFeeBlended" class="java.lang.String"/>
+		<field name="authCode" class="java.lang.String"/>
+		<field name="retrievalReferenceNumber" class="java.lang.String"/>
+		<field name="merchantId" class="java.lang.String"/>
+		<field name="merchantName" class="java.lang.String"/>
+		<field name="merchantState" class="java.lang.String"/>
+		<field name="merchantCountry" class="java.lang.String"/>
+		<field name="merchantTerminalId" class="java.lang.String"/>
+		<field name="schemeId" class="java.lang.String"/>
+		<field name="transactionFee" class="java.lang.Double"/>
+		<field name="transactionFeeCurrency" class="java.lang.String"/>
+		<field name="settlementAmount" class="java.lang.Double"/>
+		<field name="settlementAmountCurrency" class="java.lang.String"/>
+		<field name="settlementAmountRate" class="java.lang.Double"/>
+		<field name="acquirerId" class="java.lang.String"/>
+		<field name="forwarderId" class="java.lang.String"/>
+		<field name="mcc" class="java.lang.String"/>
+		<field name="reasonCode" class="java.lang.String"/>
+		<field name="epmMethodId" class="java.lang.String"/>
+		<field name="epmTransactionId" class="java.lang.String"/>
+		<field name="suspicious" class="java.lang.String"/>
+		<field name="riskRuleCodes" class="java.lang.String"/>
+		<field name="markTransactionAsSuspicious" class="java.lang.String"/>
+		<field name="notifyCardholderBySendingTAIsNotification" class="java.lang.String"/>
+		<field name="changeCardStatusToRisk" class="java.lang.String"/>
+		<field name="changeAccountStatusToSuspended" class="java.lang.String"/>
+		<field name="rejectTransaction" class="java.lang.String"/>
+		<field name="functionCode" class="java.lang.String"/>
+		<field name="cardExpirationDatePresent" class="java.lang.String"/>
+		<field name="onlinePIN" class="java.lang.String"/>
+		<field name="offlinePIN" class="java.lang.String"/>
+		<field name="threeDomainSecure" class="java.lang.String"/>
+		<field name="cvv2" class="java.lang.String"/>
+		<field name="magneticStripe" class="java.lang.String"/>
+		<field name="chipData" class="java.lang.String"/>
+		<field name="AVS" class="java.lang.String"/>
+		<field name="phoneNumber" class="java.lang.String"/>
+		<field name="signature" class="java.lang.String"/>
+		<field name="transactionClass" class="java.lang.String"/>
+		<field name="referenceNumber" class="java.lang.String"/>
+		<field name="transactionDescription" class="java.lang.String"/>
+		<field name="loadType" class="java.lang.String"/>
+		<field name="loadSource" class="java.lang.String"/>
+		<field name="transactionExchangeFeeAmount" class="java.lang.Double"/>
+		<field name="transactionExchangeFeeAmountCurrency" class="java.lang.String"/>
+	</subDataset>
+	<parameter name="dailyCardsTransactionsItem" class="java.util.Collection"/>
+	<detail>
+		<band height="76">
+			<componentElement>
+				<reportElement key="table 10" style="table 10" x="0" y="0" width="1300" height="50" uuid="34770839-6e83-472a-b98e-5426a306e62c"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="ItemDataset" uuid="23319c4e-396b-40b9-b79b-1a50a73598b9">
+						<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource($P{dailyCardsTransactionsItem})]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="100" uuid="6bc26bb5-ceed-404a-9076-584454073e0c">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+							<staticText>
+								<reportElement x="0" y="0" width="100" height="30" uuid="c69b59e4-1b9d-4931-afd4-f41f64472b76"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Transaction type]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="100" height="30" uuid="007cf5e3-93dd-4986-bb5e-d8ae30a7dcde"/>
+								<textFieldExpression><![CDATA[$F{transactionType}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="100" uuid="6bc26bb5-ceed-404a-9076-584454073e0c">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="100" height="30" uuid="c69b59e4-1b9d-4931-afd4-f41f64472b76"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Entry mode type]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="100" height="30" uuid="007cf5e3-93dd-4986-bb5e-d8ae30a7dcde"/>
+								<textFieldExpression><![CDATA[$F{entryModeType}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="100" uuid="6bc26bb5-ceed-404a-9076-584454073e0c">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="100" height="30" uuid="c69b59e4-1b9d-4931-afd4-f41f64472b76"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Transaction ID]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField isStretchWithOverflow="true">
+								<reportElement x="0" y="0" width="100" height="30" uuid="007cf5e3-93dd-4986-bb5e-d8ae30a7dcde"/>
+								<textFieldExpression><![CDATA[$F{transactionId}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="200" uuid="6bc26bb5-ceed-404a-9076-584454073e0c">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="200" height="30" uuid="c69b59e4-1b9d-4931-afd4-f41f64472b76"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Trans link]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField isStretchWithOverflow="true">
+								<reportElement x="0" y="0" width="200" height="30" uuid="007cf5e3-93dd-4986-bb5e-d8ae30a7dcde"/>
+								<textFieldExpression><![CDATA[$F{transLink}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="130" uuid="6361713f-be52-48d5-8ab7-fada12024594">
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="130" height="30" uuid="95aca275-ed62-4f41-8976-1240e3357687"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Transaction local time]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="130" height="30" uuid="8c6d0b80-174a-4220-a327-733daa452349"/>
+								<textFieldExpression><![CDATA[$F{transactionLocalTime}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="120" uuid="bda87b3c-f120-4ff7-aa7e-87b1899ca9b5">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="120" height="30" uuid="afd67b44-b803-43fa-aaef-5c9e53b72602"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Reconciliation date]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="120" height="30" uuid="cc1b8333-557c-4d44-80b2-d066e1a12695"/>
+								<textFieldExpression><![CDATA[$F{reconciliationDate}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="bda87b3c-f120-4ff7-aa8e-87b1899ca9b1">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column5"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="afd67b44-b803-43fa-aaef-5c9e53b72618"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Settlement date]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="30" uuid="cc1b8333-557c-4d44-80b2-d066e1a12680"/>
+								<textFieldExpression><![CDATA[$F{settlementDate}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="120" uuid="bda87b3c-f120-4ff7-aa8e-87b1899ca9b7">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column6"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="120" height="30" uuid="afd67b44-b803-43fa-aaef-5c9e53b72818"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Date time processed]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="120" height="30" uuid="cc1b8333-557c-4d44-80b2-d066e1a12685"/>
+								<textFieldExpression><![CDATA[$F{dateTimeProcessed}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="100" uuid="6ed99eb5-fa7f-4809-a1b8-831b243920db">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column7"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="100" height="30" uuid="885184ea-c402-4323-b4e7-789edd750200"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Card product]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField isStretchWithOverflow="true">
+								<reportElement x="0" y="0" width="100" height="30" uuid="0a3030d7-919a-4c9b-be62-6999f1e9bf93"/>
+								<textFieldExpression><![CDATA[$F{cardProduct}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="100" uuid="d82338dd-2667-401c-b69c-93bf779fc853">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column8"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="100" height="30" uuid="dcbb6c9c-4824-4721-b239-11d5383e3c67"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Program]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField isStretchWithOverflow="true">
+								<reportElement x="0" y="0" width="100" height="30" uuid="548d0601-2549-4a94-9242-b3321518de98"/>
+								<textFieldExpression><![CDATA[$F{program}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="100" uuid="78462189-5fac-48ce-a950-e920ec0a6a44">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column9"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="100" height="30" uuid="bd10dda6-c383-4996-b781-ed1ab0a16eb7"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Card ID]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField isStretchWithOverflow="true">
+								<reportElement x="0" y="0" width="100" height="30" uuid="e6084e08-4a9e-4c5d-bfd5-ebb7ab1b26b6"/>
+								<textFieldExpression><![CDATA[$F{cardId}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="100" uuid="260e9413-56b5-4703-9e63-fbf54f923743">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column10"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="100" height="30" uuid="b0c2fc59-7f28-4ed6-abc5-7fad3edab032"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Account ID]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField isStretchWithOverflow="true">
+								<reportElement x="0" y="0" width="100" height="30" uuid="6f7a8e1a-d688-403c-8978-5f6e43fb105e"/>
+								<textFieldExpression><![CDATA[$F{accountId}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="140" uuid="23a39b80-8052-45ac-ad34-d39cf926a971">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column11"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="140" height="30" uuid="893fc395-6ade-4d58-8555-83d1242ba0b9"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Transaction amount]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="140" height="30" uuid="bc0a10bb-91d8-468f-b95d-b6cbe7458211"/>
+								<textFieldExpression><![CDATA[$F{transactionAmount}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="3294adc4-37a7-44e2-b7b7-3b5a6b4ab1d3">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column12"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="4e40efa1-0775-49ff-aff2-265b967574e5"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Currency]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="e509430e-0808-46ac-8033-12740a343ba3"/>
+								<textFieldExpression><![CDATA[$F{transactionAmountCurrency}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="46b96605-d868-44ca-99ed-73d65f0d68f2">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column13"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="23968977-f9b9-4b1c-8351-0b64f9e5aba1"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Billing amount]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="ceb3c382-b465-4b7a-8ac7-c30c70205833"/>
+								<textFieldExpression><![CDATA[$F{billingAmount}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="ad0c9412-3d3e-47bf-93dd-1e6a7cb740d1">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column14"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="ed44b80b-4c73-460c-97b7-c630ba42a5b6"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Currency]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="84ba4e91-0c13-4090-affc-faf9ffab4b9d"/>
+								<textFieldExpression><![CDATA[$F{billingAmountCurrency}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="9234338e-cc6d-414e-91de-7dbc50ca4435">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column15"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="41a737b8-618b-48b7-8b77-017f1989eab3"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Rate]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="72e39ef2-40da-4852-80b7-7eef675703eb"/>
+								<textFieldExpression><![CDATA[$F{billingAmountRate}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="710958cb-e5eb-4d6f-98ac-1dee64e14f45">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column16"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="13e63e32-1c97-44df-8b36-c6cbdbc6077a"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Cardholder amount]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="b26a8d47-7736-45dd-b24b-6ef1a3d6b7bf"/>
+								<textFieldExpression><![CDATA[$F{cardholderAmount}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="b2f01f65-33b1-4a12-96aa-1353e7c04c17">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column17"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="4156ccc3-3158-40cb-a368-877d9209a6e2"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Currency]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="05d5dad7-24b6-43cd-b8a3-7f0529bf7360"/>
+								<textFieldExpression><![CDATA[$F{cardholderAmountCurrency}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="0b3cf264-8aca-4b10-9f60-500db5155788">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column18"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="b62b1481-f631-4456-b341-cca027250d78"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Rate]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c1a8f554-99d5-4a59-a751-238d8aea511e"/>
+								<textFieldExpression><![CDATA[$F{cardholderAmountRate}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="ccffa4b2-7918-4214-b371-ba47eff45bf3">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column19"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c0333c64-e423-4fec-8576-4e22de3da3bb"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Base conversion rate]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="307ce94a-0fa4-4308-9510-5e74a354cd68"/>
+								<textFieldExpression><![CDATA[$F{baseConversionRate}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="8610dd5d-10e2-49bb-b5f5-4025d9d24faf">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column20"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="41b029e4-a1d0-4633-8ae5-74b220a3b644"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Is conversion fee blended]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="f9a62a3a-dfb0-40b9-a990-c4425669d5d3"/>
+								<textFieldExpression><![CDATA[$F{isConversionFeeBlended}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="cb97d8af-050b-4f14-b42d-fd0d761538b0">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column21"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="69567860-e12e-48d3-9b04-cdc762b99c58"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Auth code]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="087e1314-7749-4b91-958c-6b814d5268d8"/>
+								<textFieldExpression><![CDATA[$F{authCode}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="21f45ef2-62e6-4c3e-8453-fda5ecd07e43">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column22"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="0a79b115-c436-491d-a477-4a2967f43b45"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Retrieval reference number]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="14a3f076-7f34-4898-ba4a-71662ee6ee7c"/>
+								<textFieldExpression><![CDATA[$F{retrievalReferenceNumber}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="3dabb205-0ac3-4f0b-8a8e-42fcec292a98">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column23"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="a7e13c2a-feca-4ad5-95f6-d4752fc74acf"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Merchant ID]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="f72e5b90-7cd7-4205-921d-7192c43514b3"/>
+								<textFieldExpression><![CDATA[$F{merchantId}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="290" uuid="d868268c-e308-4cfa-b805-b37a917333d1">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column24"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="290" height="30" uuid="58c39456-594d-4774-9ab7-e4935c32fc4e"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Merchant name]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField isStretchWithOverflow="true">
+								<reportElement x="0" y="0" width="290" height="30" uuid="5c89a817-d04b-49ca-8fbc-e75be9f9b1de"/>
+								<textFieldExpression><![CDATA[$F{merchantName}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="b28cfe02-9516-49a1-be0f-4b2d17b96144">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column25"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="14b4ea57-bc03-4a6c-a853-6242807b05ed"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Merchant state]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="9fe3af05-ec52-4639-a8e2-447f3d76494b"/>
+								<textFieldExpression><![CDATA[$F{merchantState}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="2412820e-c566-4f24-b7c4-31bec977ca90">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column26"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="da15350f-0efa-4176-b2e2-846707d75a7c"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Merchant country]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="7f7f3c51-6497-4edb-b016-9f5abf93cb10"/>
+								<textFieldExpression><![CDATA[$F{merchantCountry}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="3617c47d-eb90-4b8d-89af-7d855101c0e0">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column27"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="7de4cc0a-78c8-4dce-a229-94e7eb77cc9d"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Merchant terminal ID]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c2ce9a7d-f135-41f7-9e34-d3baea221469"/>
+								<textFieldExpression><![CDATA[$F{merchantTerminalId}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="61225205-222b-41cb-ad6b-49bd1b6ead47">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column28"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="09cfa6ea-6524-4abd-a81a-91983efd3c9f"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Scheme ID]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="48cf6225-5891-4d64-aaa7-ae66dc0d0a19"/>
+								<textFieldExpression><![CDATA[$F{schemeId}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="eaef4eda-c00a-4427-be36-66d26f95067f">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column29"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="2f4f4158-fc54-40ea-abf6-63c3329c0442"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Transaction fee]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="10be8662-3fa8-493f-8814-78fed1c0f81b"/>
+								<textFieldExpression><![CDATA[$F{transactionFee}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="f8e8785f-840b-4fb7-93ee-be7f07395c83">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column30"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="beff0d1b-6b5d-4724-b86a-2560ec5f0942"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Currency]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="fd1dd0cb-c467-40db-a3de-799dbb5bda18"/>
+								<textFieldExpression><![CDATA[$F{transactionFeeCurrency}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="d1387346-cf32-4ff4-918e-6b3be5741f3b">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column31"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="6939118c-5767-4ce2-a310-2358971eaec8"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Settlement amount]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="ce838959-7a0e-4a60-8d6a-77c1121195fe"/>
+								<textFieldExpression><![CDATA[$F{settlementAmount}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="d1387346-cf32-4ff4-918e-6b3be5741f3b">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column32"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="6939118c-5767-4ce2-a310-2358971eaec8"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Currency]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="ce838959-7a0e-4a60-8d6a-77c1121195fe"/>
+								<textFieldExpression><![CDATA[$F{settlementAmountCurrency}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="d1387346-cf32-4ff4-918e-6b3be5741f3b">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column33"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="6939118c-5767-4ce2-a310-2358971eaec8"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Rate]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="ce838959-7a0e-4a60-8d6a-77c1121195fe"/>
+								<textFieldExpression><![CDATA[$F{settlementAmountRate}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="a85fa900-f809-45ea-a8f7-6e90afc184ac">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column34"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="8c5d322e-bb73-415e-832b-38b6d8e21f19"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Acquirer ID]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="eadab7bf-c601-4c70-be67-43fbac3d7258"/>
+								<textFieldExpression><![CDATA[$F{acquirerId}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="53c1c5d5-2c47-42dd-9c26-08592f5814f5">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column35"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="bd2c00fc-1e77-4534-96f8-e7cb311ab3b8"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Forwarder ID]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="ed65fdfd-9aec-45b8-bcc9-a91a09fc9b54"/>
+								<textFieldExpression><![CDATA[$F{forwarderId}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="c02873b9-7c51-49ab-aeeb-16ce69c6c385">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column36"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="96d8f7af-3d8e-48cc-8a7b-3986af7c2ca8"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Mcc]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="f7aac415-43cf-4411-863c-845b2bf9eca9"/>
+								<textFieldExpression><![CDATA[$F{mcc}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="f461fe54-3ee7-4c5a-9185-47f46c5be8d7">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column37"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c7d1f0c3-cede-4d5e-a3e4-78096f3b2ba4"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Reason code]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="043fe85a-e8ea-41c2-8ede-f27858138ad9"/>
+								<textFieldExpression><![CDATA[$F{reasonCode}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="e2276e31-c8a7-4824-a64e-932db13ff9f1">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column38"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="eb5961d1-41da-458d-a77c-7a8da314255b"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Epm Method ID]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="17a8f0bc-3577-46d1-9858-9f17ee91bd1e"/>
+								<textFieldExpression><![CDATA[$F{epmMethodId}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="ea25dee9-90f3-49a1-b2f2-58563b1341e3">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column39"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="512a20ec-5a5a-4589-b5ef-0c9a7a7783b4"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Epm transaction ID]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="484770c2-12a8-436c-a37d-7983b1b8430e"/>
+								<textFieldExpression><![CDATA[$F{epmTransactionId}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="a33a6621-0af6-425b-b6c4-782a2c8d2d1c">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column40"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="e8b10ee2-63b4-4612-a5cd-dd47a8eedc71"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Suspicious]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="1b3f724a-fd36-4fa2-b53e-ba90c16134bb"/>
+								<textFieldExpression><![CDATA[$F{suspicious}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="faf017ef-2a38-4cff-98b8-bfb8cc669d7b">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column41"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="358a0290-6949-498e-88a1-dfc37a232787"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Risk rule codes]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c14ffd06-a5f8-4540-8f7d-734bffc28d37"/>
+								<textFieldExpression><![CDATA[$F{riskRuleCodes}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="ad08e9bf-49e8-4449-8c74-cf7380b46dde">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column42"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="5133c096-a07f-4de3-a094-e7d29b25a117"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Mark transaction as suspicious]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="7526c7e1-7e1a-411e-8b46-04fb2e298897"/>
+								<textFieldExpression><![CDATA[$F{markTransactionAsSuspicious}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="43169e53-b563-4e76-9fa0-da49df06c348">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column43"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="724eea19-2460-4cd7-be56-bea11de55f09"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Notify cardholder by sending TAIs notification]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="6dbd465d-8149-40e5-8718-69b594a6dfd3"/>
+								<textFieldExpression><![CDATA[$F{notifyCardholderBySendingTAIsNotification}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="87352900-972e-4b0b-97d3-dc940bf6fabe">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column44"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="b7968452-2f9d-41f3-813f-384e4ea1cd2a"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Change card status to risk]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="20e26368-9d52-4862-af4b-4cc9c2ef9bd2"/>
+								<textFieldExpression><![CDATA[$F{changeCardStatusToRisk}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="fcca2f2b-752a-4555-9d86-553466e2b170">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column45"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="a8cbba17-9cc6-49de-a13d-30f846e2f235"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Change account status to suspended]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="526d1082-14a7-46f1-ac10-ce3260ab73f0"/>
+								<textFieldExpression><![CDATA[$F{changeAccountStatusToSuspended}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="0b3cf264-8aca-4b10-9f60-500db5155788">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column46"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="b62b1481-f631-4456-b341-cca027250d78"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Reject transaction]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c1a8f554-99d5-4a59-a751-238d8aea511e"/>
+								<textFieldExpression><![CDATA[$F{rejectTransaction}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="0b3cf264-8aca-4b10-9f60-500db5155788">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column47"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="b62b1481-f631-4456-b341-cca027250d78"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Function code]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c1a8f554-99d5-4a59-a751-238d8aea511e"/>
+								<textFieldExpression><![CDATA[$F{functionCode}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="0b3cf264-8aca-4b10-9f60-500db5155788">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column48"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="b62b1481-f631-4456-b341-cca027250d78"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Card expiration date present]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c1a8f554-99d5-4a59-a751-238d8aea511e"/>
+								<textFieldExpression><![CDATA[$F{cardExpirationDatePresent}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="0b3cf264-8aca-4b10-9f60-500db5155788">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column49"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="b62b1481-f631-4456-b341-cca027250d78"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Online PIN]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c1a8f554-99d5-4a59-a751-238d8aea511e"/>
+								<textFieldExpression><![CDATA[$F{onlinePIN}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="0b3cf264-8aca-4b10-9f60-500db5155788">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column50"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="b62b1481-f631-4456-b341-cca027250d78"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Offline PIN]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c1a8f554-99d5-4a59-a751-238d8aea511e"/>
+								<textFieldExpression><![CDATA[$F{offlinePIN}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="0b3cf264-8aca-4b10-9f60-500db5155788">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column51"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="b62b1481-f631-4456-b341-cca027250d78"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Three domain secure]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c1a8f554-99d5-4a59-a751-238d8aea511e"/>
+								<textFieldExpression><![CDATA[$F{threeDomainSecure}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="0b3cf264-8aca-4b10-9f60-500db5155788">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column52"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="b62b1481-f631-4456-b341-cca027250d78"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Cvv2]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c1a8f554-99d5-4a59-a751-238d8aea511e"/>
+								<textFieldExpression><![CDATA[$F{cvv2}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="0b3cf264-8aca-4b10-9f60-500db5155788">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column53"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="b62b1481-f631-4456-b341-cca027250d78"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Magnetic stripe]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c1a8f554-99d5-4a59-a751-238d8aea511e"/>
+								<textFieldExpression><![CDATA[$F{magneticStripe}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="0b3cf264-8aca-4b10-9f60-500db5155788">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column54"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="b62b1481-f631-4456-b341-cca027250d78"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Chip data]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c1a8f554-99d5-4a59-a751-238d8aea511e"/>
+								<textFieldExpression><![CDATA[$F{chipData}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="0b3cf264-8aca-4b10-9f60-500db5155788">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column55"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="b62b1481-f631-4456-b341-cca027250d78"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[AVS]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c1a8f554-99d5-4a59-a751-238d8aea511e"/>
+								<textFieldExpression><![CDATA[$F{AVS}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="0b3cf264-8aca-4b10-9f60-500db5155788">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column56"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="b62b1481-f631-4456-b341-cca027250d78"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Phone number]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c1a8f554-99d5-4a59-a751-238d8aea511e"/>
+								<textFieldExpression><![CDATA[$F{phoneNumber}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="0b3cf264-8aca-4b10-9f60-500db5155788">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column57"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="b62b1481-f631-4456-b341-cca027250d78"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Signature]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c1a8f554-99d5-4a59-a751-238d8aea511e"/>
+								<textFieldExpression><![CDATA[$F{signature}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="0b3cf264-8aca-4b10-9f60-500db5155788">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column58"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="b62b1481-f631-4456-b341-cca027250d78"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Transaction class]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c1a8f554-99d5-4a59-a751-238d8aea511e"/>
+								<textFieldExpression><![CDATA[$F{transactionClass}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="0b3cf264-8aca-4b10-9f60-500db5155788">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column59"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="b62b1481-f631-4456-b341-cca027250d78"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Reference number]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c1a8f554-99d5-4a59-a751-238d8aea511e"/>
+								<textFieldExpression><![CDATA[$F{referenceNumber}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="140" uuid="0b3cf264-8aca-4b10-9f60-500db5155788">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column60"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="140" height="30" uuid="b62b1481-f631-4456-b341-cca027250d78"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Transaction description]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField isStretchWithOverflow="true">
+								<reportElement x="0" y="0" width="140" height="30" uuid="c1a8f554-99d5-4a59-a751-238d8aea511e"/>
+								<textFieldExpression><![CDATA[$F{transactionDescription}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="0b3cf264-8aca-4b10-9f60-500db5155788">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column61"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="b62b1481-f631-4456-b341-cca027250d78"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Load type]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c1a8f554-99d5-4a59-a751-238d8aea511e"/>
+								<textFieldExpression><![CDATA[$F{loadType}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="0b3cf264-8aca-4b10-9f60-500db5155788">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column62"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="b62b1481-f631-4456-b341-cca027250d78"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Load source]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c1a8f554-99d5-4a59-a751-238d8aea511e"/>
+								<textFieldExpression><![CDATA[$F{loadSource}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="140" uuid="0b3cf264-8aca-4b10-9f60-500db5155788">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column63"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="140" height="30" uuid="b62b1481-f631-4456-b341-cca027250d78"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Transaction exchange fee amount]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="140" height="30" uuid="c1a8f554-99d5-4a59-a751-238d8aea511e"/>
+								<textFieldExpression><![CDATA[$F{transactionExchangeFeeAmount}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="110" uuid="0b3cf264-8aca-4b10-9f60-500db5155788">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column64"/>
+						<jr:columnHeader style="table 10_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="110" height="30" uuid="b62b1481-f631-4456-b341-cca027250d78"/>
+								<textElement>
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Currency]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 10_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="110" height="30" uuid="c1a8f554-99d5-4a59-a751-238d8aea511e"/>
+								<textFieldExpression><![CDATA[$F{transactionExchangeFeeAmountCurrency}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+</jasperReport>
